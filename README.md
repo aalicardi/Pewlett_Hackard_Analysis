@@ -20,5 +20,7 @@ Generate an employee database with sql of all employees at Pewlett Hackard in or
 ![image](https://user-images.githubusercontent.com/105028515/196329844-c5b6c18c-1719-4987-93fc-ca4466684693.png)
 
 **OUTPUT**
+
 ![image](https://user-images.githubusercontent.com/105028515/196328755-553752e2-0201-4acf-99f3-17894bdcd0bd.png)
+
 ![image](https://user-images.githubusercontent.com/105028515/196329677-dac512de-17e3-417f-812b-720cc1d0c92b.png)
