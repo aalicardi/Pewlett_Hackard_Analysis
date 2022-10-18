@@ -6,6 +6,10 @@ Generate an employee database with sql of all employees at Pewlett Hackard in or
 
 ## Results
 
+**Senior Engineer** and **Senior Staff** positions account for over 70% of the positions that will be opening up as a result of this "silver tsunami"
+
+![image](https://user-images.githubusercontent.com/105028515/196330978-f3be7f58-c259-4355-9c25-501f328830b9.png)
+
 
 ## Summary
 **1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?**
