@@ -16,10 +16,11 @@ Generate an employee database with sql of all employees at Pewlett Hackard in or
 
 1,549 employees are eligible for the mentoring program. This represents just over 2% of the total number of upcoming retirees. If each of these employees participated in the mentoring program, they would each be responsible for mentoring at least 46 individuals. 
 
-**QUERY**
+### QUERY
+
 ![image](https://user-images.githubusercontent.com/105028515/196329844-c5b6c18c-1719-4987-93fc-ca4466684693.png)
 
-**OUTPUT**
+### OUTPUT
 
 ![image](https://user-images.githubusercontent.com/105028515/196328755-553752e2-0201-4acf-99f3-17894bdcd0bd.png)
 
