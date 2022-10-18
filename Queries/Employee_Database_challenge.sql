@@ -1,4 +1,5 @@
--- list of retiring employees and their titles
+-- DELIVERABLE ONE
+-- List of retiring employees and their titles
 SELECT e.emp_no,
 	e.first_name,
 	e.last_name,
@@ -34,3 +35,21 @@ GROUP BY title
 ORDER BY count(title) desc;
 
 SELECT * FROM retiring_titles;
+
+-- DELIVERABLE TWO
+-- Employees eligible to participate in mentorship program
+SELECT DISTINCT ON (e.emp_no) e.emp_no,
+    e.first_name,
+    e.last_name,
+    e.birth_date,
+    de.from_date,
+    de.to_date,
+    t.title
+INTO mentorship_eligibility
+FROM employees as e
+INNER JOIN dept_employees as de on (e.emp_no = de.emp_no)
+INNER JOIN titles as t on (e.emp_no = t.emp_no)
+WHERE de.to_date = '9999-01-01' and (e.birth_date between '1965-01-01' and '1965-12-31')
+ORDER BY emp_no;
+
+SELECT * FROM mentorship_eligibility 
